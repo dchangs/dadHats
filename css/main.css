@@ -1,0 +1,66 @@
+body {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	background-color: #EAF0FE;
+}
+
+nav {
+	color: #000;
+	text-align: right;
+	margin: 0;
+	padding: 10px 20px;
+	position: fixed;
+	width: 100%;
+}
+
+nav i, #cart {
+	display: inline-block;
+	font-size: 28px;
+	margin: 5px;
+}
+
+.headingTitle {
+	margin: 30px;
+	font-size: 50px;
+	font-family: monospace;
+	font-weight: 700;
+}
+
+hr {
+	border: 1px solid #bbb;
+	width: 80%;
+}
+
+.itemDiv {
+	width: 240px;
+	height: 400px;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px 20px;
+	display: inline-block;
+	background-color: #efefef;
+}
+
+.itemDiv h1 {
+	font-size: 18px;
+	margin: 5px auto;
+	padding: 0;
+}
+
+.itemDiv h2 {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+img {
+	width: 160px;
+	height: 240px;
+}
+
+button {
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
